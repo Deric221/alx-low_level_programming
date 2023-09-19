@@ -11,9 +11,9 @@ int i;
 int count = 0;
 
 for (i = 0; s[i] != '\0'; i++)
-	cout++;
+	count++;
 
 for (i = count - 1; i >= 0; i--)
-	_putchar (s[i]);
-	_putchar ('\n');
+_putchar (s[i]);
+_putchar ('\n');
 }
